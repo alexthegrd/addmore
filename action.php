@@ -2,7 +2,7 @@
 
 
 
-$conn = new PDO ('mysql:host=136.243.1.210:3306;dbname=addmore', 'test', '145J9fxd@');
+$conn = new PDO ('mysql:host=localhost;dbname=addmore', 'root', 'root');
 
 
 foreach ($_POST['product_name'] as $key => $value) {
